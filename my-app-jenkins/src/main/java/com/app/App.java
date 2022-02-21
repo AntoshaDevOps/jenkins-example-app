@@ -9,7 +9,7 @@ public class App
     public static void main( String[] args )
     {
         int a = 0;
-        String new-w;
+        String newVar;
         System.out.println( "Hello World from Jenkins!" );
     }
 }
