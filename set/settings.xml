@@ -1,10 +1,18 @@
 <settings>
+  <servers>
+    <server>
+      <username>mavenproxy</username>
+      <password>mavenproxy</password>
+      <id>nexus</id>
+    </server>
+  </servers>
+  
   <mirrors>
     <mirror>
       <!--This sends everything else to /public -->
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://10.0.2.12:8081/repository/mavenproxy/</url>
+      <url>http://10.0.2.12:8081/repository/mymavenproxy/</url>
     </mirror>
   </mirrors>
   <profiles>
