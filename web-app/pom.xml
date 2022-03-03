@@ -20,10 +20,20 @@
   
   <repositories>
     <repository>
-      <id>maven-group</id>
+      <id>nexus</id>
       <url>http://10.0.2.12:8081/repository/mavenproxy/</url>
     </repository>
   </repositories>
+  
+  <pluginRepositories>
+        <pluginRepository>
+            <id>nexus</id>
+            <name>Nexus</name>
+            <url>http://10.0.2.12:8081/repository/mavenproxy/</url>
+        </pluginRepository>        
+  </pluginRepositories>
+  
+  
   
   <dependencies>
     <dependency>
