@@ -5,8 +5,8 @@
 
   <mirrors>
     <mirror>
-      <id>central</id>
-      <name>central</name>
+      <id>nexus</id>
+      <name>nexus</name>
       <url>http://10.0.2.12:8081/repository/mavenproxy/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
