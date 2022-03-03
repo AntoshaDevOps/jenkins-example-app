@@ -21,7 +21,7 @@
   
   <repositories>
     <repository>
-      <id>mavenproxy</id>
+      <id>nexus</id>
       <url>http://10.0.2.12:8081/repository/mavenproxy/</url>
     </repository>
   </repositories>
