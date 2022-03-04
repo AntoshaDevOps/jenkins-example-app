@@ -4,13 +4,24 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.app</groupId>
+  <groupId>cust.app</groupId>
   <artifactId>my-app</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+  
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <url>http://10.0.2.12:8081/repository/mymaven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus</id>
+      <url>http://10.0.2.12:8081/repository/mymaven-releases/</url>
+    </repository>
+  </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
