@@ -11,6 +11,17 @@
   <name>my-app-jenkins</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+  
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <url>http://10.0.2.12:8081/repository/mymaven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus</id>
+      <url>http://10.0.2.12:8081/repository/mymaven-releases/</url>
+    </repository>
+  </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
