@@ -1,0 +1,6 @@
+{
+    "Dependencies":[
+        "AntoshaDevOps/pom1",
+        "AntoshaDevOps/pom2"
+    ]
+}
